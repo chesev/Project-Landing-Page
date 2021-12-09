@@ -74,7 +74,7 @@ a {
 	color: white;
 }
 
-button {
+.first-button {
 	background-color: #3882f6;
 	color: white;
 	font-weight: bold;
@@ -139,7 +139,7 @@ figcaption {
 }
 
 .quote {
-	display: flex;
+	dislay: flex;
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -153,4 +153,41 @@ figcaption {
 	font-weight: bolder;
 	align-self: flex-end;
 	justify-content: flex-end;
+}
+
+/* FOURTH SECTION */
+
+.container {
+	display: flex;
+	/* flex-direction: column; */
+	background-color: #3882f6;
+	height: 140px;
+	width: 65%;
+	border-radius: 12px;
+	align-items: center;
+	justify-content: space-around;
+	color: white;
+}
+
+.action {
+	font-size: 23px;
+	font-weight: bolder;
+}
+
+.second-button {
+	background-color: #3882f6;
+	color: white;
+	font-size: large;
+	font-weight: bold;
+	border-radius: 8px;
+	border: 2px solid white;
+	padding: 4px 32px;
+}
+
+.fourth {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
