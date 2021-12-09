@@ -191,3 +191,13 @@ figcaption {
 	margin-top: 100px;
 	margin-bottom: 100px;
 }
+
+/* FOOTER */
+
+footer {
+	background-color: #1f2937;
+	text-align: center;
+	color: white;
+	padding-top: 35px;
+	padding-bottom: 36px;
+}
